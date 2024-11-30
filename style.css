@@ -1,1 +1,121 @@
 
+html {
+    font-family: "Switzer",-apple-system,BlinkMacSystemFont,avenir next,avenir,segoe ui,helvetica neue,helvetica,Cantarell,Ubuntu,roboto,noto,arial,sans-serif;
+}
+/* RED HIGHLIGHT - Highlighting selected text with red background */
+::selection {
+ background: #ff4d4d; /* Adjust the color to your preference */
+ color: #fff; /* Adjust text color if needed */
+}
+
+/* INVERT HEADER LOGO COLOR ON DARK THEMED SECTIONS */
+/* This section inverts the logo color when the header is used in a dark theme */
+.dark.header .header-title-logo a,
+.dark-bold.header .header-title-logo a,
+.black.header .header-title-logo a,
+.black-bold.header .header-title-logo a {
+ filter: invert(1);
+ -webkit-filter: invert(1);
+}
+
+/* FONTS */
+/* Importing custom fonts using @font-face */
+@font-face {
+   font-family: 'Switzer';
+   src: url('https://static1.squarespace.com/static/653885022aff0840c3664e68/t/67469ac5947fdc17881fc694/1732680389959/Switzer-Medium.woff2') format('woff2'),
+        url('https://static1.squarespace.com/static/653885022aff0840c3664e68/t/67469ac519eb7f12b536cf13/1732680389858/Switzer-Medium.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap; /* Improves font loading behavior */
+}
+
+@font-face {
+   font-family: 'Switzer';
+   src: url('https://static1.squarespace.com/static/653885022aff0840c3664e68/t/67469ac5a3b30325b0b8597d/1732680389668/Switzer-Bold.woff2') format('woff2'),
+        url('https://static1.squarespace.com/static/653885022aff0840c3664e68/t/67469ac5e3507b134d5f00ef/1732680389416/Switzer-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Switzer';
+   src: url('https://static1.squarespace.com/static/653885022aff0840c3664e68/t/67469adb8877332fa441a89a/1732680411488/Switzer-Regular.woff2') format('woff2'),
+        url('https://static1.squarespace.com/static/653885022aff0840c3664e68/t/67469adb0b8ed7411681789e/1732680411392/Switzer-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'SohneSchmalDreiviertelfett';
+   src: url('https://static1.squarespace.com/static/653885022aff0840c3664e68/t/67469aa846e79145453f4047/1732680360394/SohneSchmal-Dreiviertelfett.woff2') format('woff2'),
+        url('https://static1.squarespace.com/static/653885022aff0840c3664e68/t/67469aa77619a25dcf8e484a/1732680360273/SohneSchmal-Dreiviertelfett.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'CanelaCondensed';
+   src: url('https://static1.squarespace.com/static/653885022aff0840c3664e68/t/67469a25840275240dff8cbc/1732680229677/CanelaCondensedWeb-Light.woff2') format('woff2'),
+        url('https://static1.squarespace.com/static/653885022aff0840c3664e68/t/67469a25eb89fa79ecce0775/1732680229274/CanelaCondensedWeb-Light.woff') format('woff');
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'CanelaCondLight';
+   src: url('https://static1.squarespace.com/static/653885022aff0840c3664e68/t/67469a259b9b626930edbc0f/1732680229050/CanelaCondensed-Light.woff2') format('woff2'),
+        url('https://static1.squarespace.com/static/653885022aff0840c3664e68/t/67469aa742109a3d0f8628b4/1732680359167/CanelaCondensed-Light.woff') format('woff');
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'SohneSchmalHalbfett';
+   src: url('https://static1.squarespace.com/static/653885022aff0840c3664e68/t/67469ac5673b226a9e27c506/1732680389248/SohneSchmal-Halbfett.woff2') format('woff2'),
+        url('https://static1.squarespace.com/static/653885022aff0840c3664e68/t/67469ac5e39e66038ba9865b/1732680389093/SohneSchmal-Halbfett.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+/* TEXT STYLES */
+
+/* General body text style using Switzer font */
+body {
+   font-family: 'Switzer', sans-serif;
+   font-weight: normal;
+}
+
+/* Header styles using CanelaCondLight for headings */
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'CanelaCondLight', serif;
+
+}
+
+
+#toptoptop h1{
+ font-size: 12em !important;
+     font-weight: 300;
+ letter-spacing: -0.02em;
+ line-height: 0.8em;
+
+}
+
+#toptoptop h2{
+ font-size: 12em !important;
+ font-family: 'SohneSchmalDreiviertelfett';
+ text-transform: uppercase;
+     font-weight: 300;
+ letter-spacing: -0.02em;
+ line-height: 1em;
+}
+
+#toptoptop h4{
+ text-wrap: none !impoRTANT;
+
+}
